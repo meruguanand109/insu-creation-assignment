@@ -1,0 +1,138 @@
+.cu-container {
+  background-color: white;
+  max-width: 100vw;
+  color: #551e53;
+  padding: 20px;
+  font-family: Verdana, sans-serif;
+}
+.cu-card-1 {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.cu-pic {
+  height: 350px;
+}
+
+.cu-row {
+  display: flex;
+  padding: 20px;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.cu-form {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.cu-address {
+  width: 45%;
+  border-left: 2px solid black;
+  margin-left: 20px;
+  padding-left: 40px;
+}
+.name-input {
+  box-shadow:
+    rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin: 10px;
+  outline: none;
+  border: 1px;
+  padding-left: 10px;
+  height: 25px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.textarea {
+  box-shadow:
+    rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin: 10px;
+  outline: none;
+  border: 1px;
+  font-size: 16px;
+  height: 100px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.cu-form-send-btn {
+  background-color: black;
+  color: white;
+  width: 120px;
+  font-size: 14px;
+  font-weight: 400;
+  height: 35px;
+  border: 0px;
+  border-radius: 25px;
+}
+.input-label {
+  font-weight: 500;
+}
+.cu-address-list {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.cu-address-item {
+  display: flex;
+  align-items: center;
+}
+.cu-address-item-box-h {
+  margin: 10px;
+  font-size: 16px;
+}
+
+.cu-address-item-box-p {
+  margin: 10px;
+  font-size: 14px;
+}
+.location-img {
+  width: 30px;
+}
+.address-img {
+  height: 220px;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .cu-pic {
+    height: 130px;
+    width: auto;
+  }
+  .cu-form-send-btn {
+    height: 30px;
+    font-size: 12px;
+    width: 80px;
+  }
+  .cu-container {
+    padding: 10px;
+  }
+  .cu-address-item {
+    padding-left: 0px;
+    align-items: flex-start;
+  }
+  .cu-card-1 {
+    flex-direction: column;
+  }
+  .cu-row {
+    flex-direction: column;
+  }
+  .cu-address {
+    width: 100%;
+    border: 0px;
+    margin: 10px;
+    padding-left: 0px;
+  }
+  .cu-address-list {
+    padding-left: 0px;
+  }
+  .cu-form {
+    width: 100%;
+  }
+  .address-img {
+    margin-left: 0px;
+    width: 200px;
+    height: auto;
+  }
+}

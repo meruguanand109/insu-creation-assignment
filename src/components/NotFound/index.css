@@ -1,0 +1,22 @@
+/* Write your CSS code here */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60%;
+  flex-direction: column;
+}
+.heading {
+  font-size: 45px;
+}
+.image {
+  height: 350px;
+  width: 300px;
+}
+
+@media (max-width: 767px) {
+  .image {
+    height: 200px;
+    width: 165px;
+  }
+}
